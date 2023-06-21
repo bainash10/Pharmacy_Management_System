@@ -41,7 +41,7 @@ if(!isset($user_id)){
    <div class="flex">
 
       <div class="image">
-         <img src="images/aboutus.jpeg" alt="">
+         <img src="images/aboutus.jpg" alt="">
       </div>
 
       <div class="content">
