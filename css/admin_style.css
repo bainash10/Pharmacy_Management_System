@@ -57,7 +57,7 @@ section{
    text-align: center;
    margin-bottom: 2rem;
    text-transform: uppercase;
-   color:green;
+   color:black;
    font-size: 4rem;
 }
 
@@ -116,20 +116,21 @@ section{
 .btn:hover,
 .option-btn:hover,
 .delete-btn:hover{
-   background-color: var(--black);
+   background:#f03a47;
+   box-shadow: 2px 9px 9px 3px #b8585f;
 }
 
 .white-btn,
 .btn{
-   background-color: var(--green);
+   background-color: #5a5656;
 }
 
 .option-btn{
-   background-color: green;
+   background-color: #5a5656;
 }
 
 .delete-btn{
-   background-color: green;
+   background-color: #5a5656;
 }
 
 .white-btn:hover{
@@ -148,7 +149,7 @@ section{
    position: sticky;
    top:0; left:0; right:0;
    z-index: 1000;
-   background-color: var(--white);
+   background-color: #c3c0becd;
    box-shadow: var(--box-shadow);
 }
 
@@ -168,17 +169,17 @@ section{
 }
 
 .header .flex .logo span{
-   color:green;
+   color:black;
 }
 
 .header .flex .navbar a{
    margin:0 1rem;
    font-size: 2rem;
-   color:green;
+   color:black;
 }
 
 .header .flex .navbar a:hover{
-   color:green;
+   color:black;
 }
 
 .header .flex .icons div{
@@ -189,7 +190,7 @@ section{
 }
 
 .header .flex .icons div:hover{
-   color:green;
+   color:black;
 }
 
 .header .flex .account-box{
@@ -232,7 +233,7 @@ section{
 }
 
 .header .flex .account-box div a{
-   color:green;
+   color:black;
 }
 
 .header .flex .account-box div a:hover{
@@ -242,7 +243,10 @@ section{
 #menu-btn{
    display: none;
 }
-
+.dashboard
+{
+   background-color: hsl(60, 64%, 96%);
+}
 .dashboard .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(rem, 1fr));
@@ -250,6 +254,7 @@ section{
    max-width: 1200px;
    margin:0 auto;
    align-items: flex-start;
+
 }
 
 .dashboard .box-container .box{
@@ -269,7 +274,7 @@ section{
 .dashboard .box-container .box p{
    margin-top: 1.5rem;
    padding:1.5rem;
-   background-color: green;
+   background-color: #5a5656;
    color:white;
    font-size: 2rem;
    border-radius: .5rem;
